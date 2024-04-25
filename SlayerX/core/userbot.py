@@ -72,8 +72,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("NOxDISCUSSION")
-                await self.one.join_chat("SUDO_APT_UPDATE")
+                await self.two.join_chat("Learningbots79")
+                await self.one.join_chat("learning_bots")
             except:
                 pass
             assistants.append(2)
